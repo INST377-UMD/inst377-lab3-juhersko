@@ -1,0 +1,75 @@
+body {
+    background-color: #92dce5;
+    background-color:DodgerBlue;
+  }
+
+  .topnav a:hover {
+    background-color: #f3e8f4;
+    color: black;
+  }  
+
+.topnav {
+    background-color: #f183dd;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* to make the links different color and no underline */
+.topnav a {
+    text-decoration: none;
+    color: black; 
+    padding: 10px 15px;
+}
+
+
+  .header-footer {
+    text-align: center;
+    color: white;
+    background-color: #f90404;
+    padding: 20px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    clear: both;
+  }
+
+.main_content_bar {
+    background-color: #a4f3df; 
+    padding: 10px;
+    width: 65%;
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid rgb(12, 14, 12);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar {
+    background-color: #f7f7f7; 
+    padding: 5px;
+    width: 20%;
+    border-radius: 10px;
+    border: 3px solid rgb(12, 14, 12);
+    float: right;
+    margin: auto;
+    margin-right: -5px;
+    margin-top: -15px;
+    margin-bottom: -100px;
+}
+
+.sidebar:hover {
+    background-color: #f2f207;
+    color: black;
+}
+
+/* Name extension */
+input[type="text"] {
+    width: 100px; 
+    font-size: 16px;
+    transition: width 0.3s ease; 
+}
+
+input[type="text"]:focus {
+    width: 250px; 
+    outline: none;
+}
+
